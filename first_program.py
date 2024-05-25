@@ -23,6 +23,18 @@ mixer.music.load('background.wav')
 mixer.music.play(-1)
 
 
+# Initialize pygame
+pygame.init()
+
+width, height = 800, 600
+
+# Creating pygame window
+screen = pygame.display.set_mode((width, height))
+
+# background sound
+mixer.music.load('background.wav')
+mixer.music.play(-1)
+
 
 
 # Title and Icon
