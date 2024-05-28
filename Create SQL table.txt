@@ -1,0 +1,8 @@
+CREATE TABLE Library_db.students(
+  Roll_no INT PRIMARY KEY AUTO_INCREMENT,
+  First_name VARCHAR(50),
+  Last_name VARCHAR(50),
+  Department VARCHAR(50),
+  Birth_date DATE,
+  Phone_no VARCHAR(15) NOT NULL UNIQUE
+);
